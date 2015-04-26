@@ -14,48 +14,78 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
 
-    .top-nav-collapse {
-        padding: 0;
-    }
-}
+h1 {font-family: 'Montserrat', Arial, serif; }
+h2 {font-family: 'Montserrat', Arial, serif; ;}
+h3{font-family: 'Montserrat', Arial, serif; ;}
+h4{font-family: 'Montserrat', Arial, serif; ;}
+
+#main-title{font-family: 'Montserrat', Arial, serif; font-size: 3em }
+#strapline{font-family: 'Montserrat', Arial, serif; font-size: 2em }
+
+
+.homepage-links {font-size:1.7em;margin-top: 0.5em}
+.testimonial-text{font-style:italic;font-size: 2em;font-family: 'Inconsolata', cursive;}
+.testimonial-name{font-weight:bold;font-size: 1.5em; text-align: right;}
+
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
+a,a:hover {color:white;font-family: 'Righteous', Arial, serif;}
+
 .intro-section {
-    height: 100%;
-    padding-top: 150px;
+    min-height: 110%;
+    padding-top: 50px;
     text-align: center;
     background: #191919;
+    background-image: url('backgrounds/black-marble.jpg');
     color: white;
 }
 
-.about-section {
-    height: 100%;
-    padding-top: 150px;
+.menus-section {
+    min-height: 110%;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
 }
 
-.services-section {
-    height: 100%;
-    padding-top: 150px;
+.events-section {
+    min-height: 110%;
+    padding-top: 50px;
     text-align: center;
     background: #191919;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
+.mealdelivery-section {
+    min-height: 110%;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
 }
+
+.aboutus-section {
+    min-height: 110%;
+    padding-top: 50px;
+    text-align: center;
+    background: #191919;
+}
+
+.contactus-section {
+    min-height: 110%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+.testimonials-section {
+    min-height: 110%;
+    padding-top: 50px;
+    text-align: center;
+    background: #191919;
+}
+
+
+.carousel-container{margin-top: 100px}
+
